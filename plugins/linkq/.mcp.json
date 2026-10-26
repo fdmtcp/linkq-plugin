@@ -1,0 +1,8 @@
+{
+    "mcpServers": {
+        "linkq": {
+            "type": "http",
+            "url": "https://linkqueue.ai/api/mcp"
+        }
+    }
+}

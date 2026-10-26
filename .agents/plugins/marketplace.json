@@ -1,0 +1,20 @@
+{
+    "name": "linkq",
+    "interface": {
+        "displayName": "LinkQ"
+    },
+    "plugins": [
+        {
+            "name": "linkq",
+            "source": {
+                "source": "local",
+                "path": "./plugins/linkq"
+            },
+            "policy": {
+                "installation": "AVAILABLE",
+                "authentication": "ON_INSTALL"
+            },
+            "category": "Productivity"
+        }
+    ]
+}
