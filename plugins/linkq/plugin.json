@@ -1,11 +1,12 @@
 {
     "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
     "name": "linkq",
-    "version": "0.2.0",
+    "version": "0.3.0",
     "description": "LinkQ 에서 「실행」을 누른 워크플로를 이 컴퓨터의 Claude Code · Codex 가 받아 한 단계씩 돌리고, 단계마다 LinkQ 에 보고한다.",
     "author": {
         "name": "LinkQ"
     },
+    "homepage": "https://linkqueue.ai",
     "repository": "https://github.com/fdmtcp/linkq-plugin",
     "keywords": ["linkq", "workflow", "mcp"],
     "extensions": {
@@ -15,6 +16,10 @@
                 "shortDescription": "LinkQ 에서 누른 실행을 이 컴퓨터에서 돌린다",
                 "developerName": "LinkQ",
                 "category": "Productivity",
+                "websiteURL": "https://linkqueue.ai",
+                "brandColor": "#00AF00",
+                "logo": "./assets/logo.png",
+                "composerIcon": "./assets/logo.png",
                 "defaultPrompt": [
                     "$run 으로 LinkQ 에서 누른 실행을 받아 돌려 줘."
                 ]
